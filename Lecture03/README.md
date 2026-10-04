@@ -60,6 +60,27 @@ smoother, but it changed the amplitude of the useful signal too much.
 One example is a temperature sensor. Sensor measurements can contain small
 random variations, and a moving-average filter can make the temperature
 reading more stable.
+## Results and Figures
+
+### Signal Operations
+
+The figure below shows the original noisy signal and the scaled signal. 
+The scaled signal has twice the amplitude, while the sample positions remain the same.
+
+![Signal Operations](signal_operations.png)
+
+### Noise Filtering
+
+The figure below compares the clean signal, noisy signal, and the signal after applying the 5-point moving-average filter.
+
+![Noise Filtering](noise_filtering.png)
+
+### Filter Comparison
+
+The figure below compares the clean signal, noisy signal, 5-point filter, and 15-point filter. 
+The 15-point filter gives stronger smoothing, but it also reduces the amplitude of the useful signal.
+
+![Filter Comparison](filter_comparison.png)
 
 ## AI Usage
 
