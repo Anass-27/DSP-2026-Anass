@@ -70,8 +70,8 @@ The second frequency is calculated using:
 
 **f2 = 13.2 + 0.17 × d**
 
-- Last digit used: **[6]**
-- Calculated frequency: **[14.22] Hz**
+- Last digit used: **6**
+- Calculated frequency: **14.22 Hz**
 
 ### Prediction
 
