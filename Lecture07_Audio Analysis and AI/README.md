@@ -114,4 +114,4 @@ The original course dataset is distributed through Moodle and is not included in
 
 ## 10. AI Assistance
 
-ChatGPT was used to help interpret the experimental results, troubleshoot Google Colab compatibility issues and prepare the written documentation. The classification experiments were performed using the supplied course notebook.
+ChatGPT was used to help troubleshoot Google Colab compatibility issues and the classification experiments were performed using the supplied course notebook.
