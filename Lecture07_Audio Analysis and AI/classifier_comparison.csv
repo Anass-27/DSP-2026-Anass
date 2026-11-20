@@ -1,0 +1,3 @@
+pipeline,test_accuracy,test_macro_f1,feature_seconds_all_clips,classifier_prediction_seconds_test
+MFCC + SVM,0.875,0.8666666666666667,0.6922781969999505,0.0015293760000076873
+YAMNet + logistic regression,0.875,0.8666666666666667,1.1301435540003695,0.001410418999967078
