@@ -106,7 +106,7 @@ It provides practical experience in designing a small DSP pipeline and evaluatin
 |---|---|
 | `lab6.mlx` | MATLAB Live Script containing the processing pipeline, figures, and explanations |
 | `lab6.pdf` | Exported report with code, visualizations, and discussion |
-| `your_image.jpg` | Original photograph used in the project |
+| `testimg.jpg` | Original photograph used in the project |
 | `README.md` | GitHub documentation for Lab 6 |
 
 ## 11. Tools and Techniques
