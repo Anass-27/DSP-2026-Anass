@@ -109,5 +109,5 @@ The MATLAB experiment was executed by the student, and the numerical results wer
 
 ## 9. References
 
-- Savonia University of Applied Sciences – Lecture 8: Image as a Signal, lecture slides and image processing notes.
+- Savonia University of Applied Sciences 
 - MATLAB Image Processing Toolbox documentation.
