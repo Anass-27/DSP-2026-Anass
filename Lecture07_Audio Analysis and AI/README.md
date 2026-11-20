@@ -45,6 +45,40 @@ Precomputed YAMNet embeddings were used as audio features to train a logistic re
 | Macro-F1 | 0.8667 | 0.8667 |
 | Correct predictions | 7/8 | 7/8 |
 
+
+## Confusion Matrices
+
+The following figures show the classification results
+for both models on the test dataset.
+
+### MFCC + SVM
+
+![MFCC + SVM Confusion Matrix](09_mfcc_confusion.png)
+
+### YAMNet + Logistic Regression
+
+![YAMNet Confusion Matrix](09_yamnet_confusion.png)
+
+## Results Discussion
+
+Both classifiers achieved 87.5% accuracy and a
+macro-F1 score of 0.8667.
+
+Each classifier correctly predicted 7 out of 8 test
+recordings. However, they made different errors.
+
+MFCC + SVM misclassified a clock-tick recording
+as a dog sound.
+
+YAMNet + Logistic Regression misclassified a
+crackling-fire recording as rain.
+
+After listening to the crackling-fire recording,
+I noticed that it sounded like a mixture of
+fire crackling and rainfall. This may explain
+why YAMNet confused these two categories.
+
+
 Both classifiers achieved the same overall performance, but they made different classification errors.
 
 ## 6. Misclassification Analysis
